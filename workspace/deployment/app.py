@@ -12,7 +12,7 @@ pipeline = joblib.load(model_path)
 
 #preprocessor = artifact["preprocessor"]
 #model = artifact["model"]
-st.write("Preprocessor loaded:", hasattr(preprocessor, "features")) 
+#st.write("Preprocessor loaded:", hasattr(preprocessor, "features")) 
 # Streamlit UI for Vehicle Maintenance Prediction
 st.title("PREDICTIVE MAINTENANCE FOR ENGINE HEALTH")
 st.write(
