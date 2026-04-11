@@ -36,14 +36,15 @@ Xtest_path = "hf://datasets/chaitanya-yadav/vehicle-predictive-maintenance/Xtest
 ytrain_path = "hf://datasets/chaitanya-yadav/vehicle-predictive-maintenance/ytrain.csv"
 ytest_path = "hf://datasets/chaitanya-yadav/vehicle-predictive-maintenance/ytest.csv"
 
-Xtrain.columns = Xtrain.columns.str.strip()
-Xtest.columns = Xtest.columns.str.strip()
+
 
 Xtrain = pd.read_csv(Xtrain_path)
 Xtest = pd.read_csv(Xtest_path)
 ytrain = pd.read_csv(ytrain_path)
 ytest = pd.read_csv(ytest_path)
 
+Xtrain.columns = Xtrain.columns.str.strip()
+Xtest.columns = Xtest.columns.str.strip()
 
 # List of numerical features in the dataset
 # Define the target variable for the classification task
