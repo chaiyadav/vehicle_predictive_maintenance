@@ -5,6 +5,7 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import make_column_transformer
 from sklearn.pipeline import make_pipeline
+from sklearn.pipeline import Pipeline
 from workspace.model_building.preprocessor import Preprocessor
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn import metrics
